@@ -1,0 +1,140 @@
+div{ 
+    width: 150px; 
+    height: 150px; 
+    background-color: brown; 
+    border: 2px black solid; 
+    display: inline-block;
+}
+
+.static-box{ 
+    position: static;
+}
+
+.relative-box{ 
+    position: relative; 
+    top: 20px; 
+    left: 30px;
+} 
+
+.absolute-box{ 
+    position: absolute; 
+    top: 10px; 
+    left: 15px; 
+}
+
+.fixed-box{ 
+    position: fixed; 
+    bottom: 10px; 
+    right: 10px; 
+} 
+
+.sticky-box{ 
+    position: sticky; 
+    top: 0px;
+} 
+
+.background-image{
+    background-image: url(Lab6photo.png); 
+    background-size: cover; 
+} 
+
+.background-image-repeat{ 
+    background-image: url(Lab6photo.png);  
+    background-image: repeat; 
+    background-size: contain;
+    
+} 
+
+.box1{ 
+    position: static;  
+    z-index: 2;
+}  
+
+.box2{ 
+    background-color: blue; 
+    position: relative; 
+    z-index: 1; 
+    right: 50px; 
+} 
+
+.boxb{ 
+    width: 100px; 
+    height: 150px;
+} 
+
+.container-row{ 
+    width: 600px; 
+    height: 400px; 
+    border: 4px black solid; 
+    background-color: white; 
+    display: flex; 
+    flex-direction: row; 
+} 
+
+.container-col{ 
+    width: 600px; 
+    height: 400px; 
+    border: 4px black solid;  
+    background-color: white;
+    display: flex; 
+    flex-direction: column;
+} 
+
+.container-spaced{ 
+    width: 600px; 
+    height: 400px; 
+    border: 4px black solid;  
+    background-color: white;
+    display: flex; 
+    justify-content: space-between; 
+}  
+
+.container-wrap{ 
+    width: 600px; 
+    height: 400px; 
+    border: 4px black solid;  
+    background-color: white;
+    display: flex; 
+    flex-wrap: wrap;
+}   
+
+.container-align{ 
+    width: 600px; 
+    height: 400px; 
+    border: 4px black solid;  
+    background-color: white;
+    display: flex; 
+   flex-direction: column; 
+   align-items: center;
+}   
+
+.boxs{ 
+    width: 100px; 
+    height: 150px;
+} 
+
+.container-center{ 
+    width: 500px; 
+    height: 600px; 
+    border: 4px black solid; 
+    background-color: white; 
+    display: flex; 
+    flex-wrap: wrap; 
+    align-content: center; 
+    justify-content: space-evenly;
+} 
+
+.boxg{ 
+    width: 100px; 
+    height: 150px; 
+    flex-grow: 2;
+} 
+
+.container-grow{ 
+    width: 1000px; 
+    height: 900px; 
+    border: 4px black solid; 
+    background-color: white; 
+    display: flex; 
+}
+
